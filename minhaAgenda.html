@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Agenda</title>
+</head>
+
+<body>
+    <h1>MINHA AGENDA</h1>
+   <script>
+         let tarefa = [7 + `h- Escola \n` + 12 + `h- Ir para casa \n` + 13  + `h- Trabalhar \n` + 18 + `h- Treinar \n` + 20 + `h- Aula de violão \n` +  21 + `h- Estudar e organizar a empresa \n` +  12 + `h- Dormir` ];
+
+
+        tarefa.length;
+        console.log(`Você tem ${tarefa.length} tarefas \n`);
+
+
+        tarefa.push( 19 +  `URGENTE: Ensaio extra de violão \n`);
+        console.log(tarefa);
+
+
+        tarefa.sort()
+        console.log(`Tarefa em ordem crescente \n ${tarefa}`);
+
+
+        tarefa.shift(0)
+        console.log( `Tarefa 1 removido: \n ${tarefa}`);
+
+
+        tarefa.pop()
+        console.log(`Tarefa urgente removida: \n ${tarefa[1]}`);
+
+
+    </script>
+</body>
+
+</html>
